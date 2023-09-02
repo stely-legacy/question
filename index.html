@@ -62,29 +62,35 @@
     <section class="section-form">
       <div class="container">
         <form class="form" action="https://formsubmit.co/4d4cf6e915295c0e4abe916ce945e3cf" method="POST">
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;" />
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+
           <div class="form__group">
             <label for="brand" class="form__label">Brand name</label>
             <input id="brand" name="brand&nbsp;name" type="text" class="form__input" required />
           </div>
 
           <div class="form__group">
-            <label for="comments" class="form__label">Description of brand</label>
-            <textarea name="comments" class="form__comment" id="comments" rows="10" required></textarea>
+            <label for="Description" class="form__label">Description of brand</label>
+            <textarea name="Description&nbsp;of&nbsp;brand" class="form__comment" id="Description" rows="3" required></textarea>
           </div>
 
           <div class="form__group">
             <label for="brand" class="form__label">Reason for rebrand(*if any)</label>
-            <input id="brand" name="rebrand" type="text" class="form__input" />
+            <input id="Reason" name="Reason&nbsp;for&nbsp;rebrand" type="text" class="form__input" />
           </div>
 
           <div class="form__group">
             <label for="brand" class="form__label">who are your main competitors and how do you dier from them</label>
-            <input id="brand" name="who" type="text" class="form__input" required />
+            <input id="brand" name="who&nbsp;are&nbsp;your&nbsp;main&nbsp;competitors&nbsp;and&nbsp;how&nbsp;do&nbsp;you&nbsp;dier&nbsp;from&nbsp;them" type="text" class="form__input" required />
           </div>
           
           <div class="form__group">
             <label for="brand" class="form__label">What are your likes or dislikes about your competitor's brandng</label>
-            <input id="brand" name="what" type="text" class="form__input" required />
+            <input id="brand" name="What&nbsp;are&nbsp;your&nbsp;likes&nbsp;or&nbsp;dislikes&nbsp;about&nbsp;your&nbsp;competitor's&nbsp;brandng" type="text" class="form__input" required />
           </div>
 
           <div class="form__group">
@@ -95,6 +101,7 @@
                   class="form__radio-input--1"
                   id="Company"
                   name="size"
+                  value="Company"
                   required
                 />
                 <label for="Company" class="form__radio-label">
@@ -109,6 +116,7 @@
                   class="form__radio-input--1"
                   id="Department"
                   name="size"
+                  value="Department"
                   required
                 />
                 <label for="Department" class="form__radio-label">
@@ -123,6 +131,7 @@
                     class="form__radio-input--1"
                     id="Product"
                     name="size"
+                    value="Product"
                     required
                   />
                   <label for="Product" class="form__radio-label">
@@ -137,6 +146,7 @@
                     class="form__radio-input--1"
                     id="Services"
                     name="size"
+                    value="Services"
                     required
                   />
                   <label for="Services" class="form__radio-label">
@@ -151,6 +161,7 @@
                     class="form__radio-input--1"
                     id="Initiative or scheme"
                     name="size"
+                    value="Initiative&nbsp;or&nbsp;scheme"
                     required
                   />
                   <label for="Initiative or scheme" class="form__radio-label">
@@ -165,6 +176,7 @@
                     class="form__radio-input--1"
                     id="Event"
                     name="size"
+                    value="Event"
                     required
                   />
                   <label for="Event" class="form__radio-label">
@@ -179,6 +191,7 @@
                     class="form__radio-input--1"
                     id="Organization"
                     name="size"
+                    value="Organization"
                     required
                   />
                   <label for="Organization" class="form__radio-label">
@@ -193,6 +206,7 @@
                     class="form__radio-input--1"
                     id="Campaign"
                     name="size"
+                    value="Campaign"
                     required
                   />
                   <label for="Campaign" class="form__radio-label">
@@ -204,8 +218,8 @@
 
           
           <div class="form__group">
-            <label for="brand" class="form__label">Who are your potential clients, customers or users</label>
-            <input id="brand" name="clients" type="text" class="form__input" required />
+            <label for="clients" class="form__label">Who are your potential clients, customers or users</label>
+            <input id="clients" name="Who&nbsp;are&nbsp;your&nbsp;potential&nbsp;clients,&nbsp;customers&nbsp;or&nbsp;users" type="text" class="form__input" required />
           </div>
 
           <div class="form__group">
@@ -216,6 +230,7 @@
                 class="form__radio-input--2"
                 id="Urban"
                 name="sizes"
+                value="Urban"
                 required
               />
               <label for="Urban" class="form__radio-label--2">
@@ -230,6 +245,7 @@
                 class="form__radio-input--2"
                 id="Rural/Natural"
                 name="sizes"
+                value="Rural/Natural"
                 required
               />
               <label for="Rural/Natural" class="form__radio-label--2">
@@ -244,6 +260,7 @@
                 class="form__radio-input--2"
                 id="Premium/Luxury"
                 name="sizes"
+                value="Premium/Luxury"
                 required
               />
               <label for="Premium/Luxury" class="form__radio-label--2">
@@ -258,6 +275,7 @@
                 class="form__radio-input--2"
                 id="Classy"
                 name="sizes"
+                value="Classy"
                 required
               />
               <label for="Classy" class="form__radio-label--2">
@@ -272,6 +290,7 @@
                 class="form__radio-input--2"
                 id="Affordable"
                 name="sizes"
+                value="Affordable"
                 required
               />
               <label for="Affordable" class="form__radio-label--2">
@@ -286,6 +305,7 @@
                 class="form__radio-input--2"
                 id="Simple"
                 name="sizes"
+                value="Simple"
                 required
               />
               <label for="Simple" class="form__radio-label--2">
@@ -300,6 +320,7 @@
                 class="form__radio-input--2"
                 id="Gentle"
                 name="sizes"
+                value="Gentle"
                 required
               />
               <label for="Gentle" class="form__radio-label--2">
@@ -314,6 +335,7 @@
                 class="form__radio-input--2"
                 id="Energeetic"
                 name="sizes"
+                value="Energeetic"
                 required
               />
               <label for="Energeetic" class="form__radio-label--2">
@@ -328,6 +350,7 @@
                 class="form__radio-input--2"
                 id="Fun/Lighthearted"
                 name="sizes"
+                value="Fun/Lighthearted"
                 required
               />
               <label for="Fun/Lighthearted" class="form__radio-label--2">
@@ -342,6 +365,7 @@
                 class="form__radio-input--2"
                 id="Global"
                 name="sizes"
+                value="Global"
                 required
               />
               <label for="Global" class="form__radio-label--2">
@@ -356,6 +380,7 @@
                 class="form__radio-input--2"
                 id="Organic"
                 name="sizes"
+                value="Organic"
                 required
               />
               <label for="Organic" class="form__radio-label--2">
@@ -370,6 +395,7 @@
                 class="form__radio-input--2"
                 id="Mature"
                 name="sizes"
+                value="Mature"
                 required
               />
               <label for="Mature" class="form__radio-label--2">
@@ -384,6 +410,7 @@
                 class="form__radio-input--2"
                 id="Friendly/Approachable"
                 name="sizes"
+                value="Friendly/Approachable"
                 required
               />
               <label for="Friendly/Approachable" class="form__radio-label--2">
@@ -398,6 +425,7 @@
                 class="form__radio-input--2"
                 id="Cool/Young"
                 name="sizes"
+                value="Cool/Young"
                 required
               />
               <label for="Cool/Young" class="form__radio-label--2">
@@ -412,6 +440,7 @@
                 class="form__radio-input--2"
                 id="High tech"
                 name="sizes"
+                value="High&nbsp;tech"
                 required
               />
               <label for="High tech" class="form__radio-label--2">
@@ -426,6 +455,7 @@
                 class="form__radio-input--2"
                 id="Minimal"
                 name="sizes"
+                value="Minimal"
                 required
               />
               <label for="Minimal" class="form__radio-label--2">
@@ -440,6 +470,7 @@
                 class="form__radio-input--2"
                 id="Traditional"
                 name="sizes"
+                value="Traditional"
                 required
               />
               <label for="Traditional" class="form__radio-label--2">
@@ -454,6 +485,7 @@
                 class="form__radio-input--2"
                 id="Modern"
                 name="sizes"
+                value="Modern"
                 required
               />
               <label for="Modern" class="form__radio-label--2">
@@ -464,23 +496,23 @@
           </div>
 
           <div class="form__group">
-            <label for="brand" class="form__label">Which media is your logo likely to be used</label>
-            <input id="brand" name="media" type="text" class="form__input" required />
+            <label for="logo" class="form__label">Which media is your logo likely to be used</label>
+            <input id="logo" name="Which&nbsp;media&nbsp;is&nbsp;your&nbsp;logo&nbsp;likely&nbsp;to&nbsp;be&nbsp;used" type="text" class="form__input" required />
           </div>
            
           <div class="form__group">
-            <label for="brand" class="form__label">What are some Company logo that you like?</label>
-            <input id="brand" name="like" type="text" class="form__input" required />
+            <label for="like" class="form__label">What are some Company logo that you like?</label>
+            <input id="lke" name="What&nbsp;are&nbsp;some&nbsp;Company&nbsp;logo&nbsp;that&nbsp;you&nbsp;like?" type="text" class="form__input" required />
           </div>
            
           <div class="form__group">
-            <label for="brand" class="form__label">What are some Company logo that you dislike?</label>
-            <input id="brand" name="dislike" type="text" class="form__input" required />
+            <label for="dislike" class="form__label">What are some Company logo that you dislike?</label>
+            <input id="dislike" name="What&nbsp;are&nbsp;some&nbsp;Company&nbsp;logo&nbsp;that&nbsp;you&nbsp;dislike?" type="text" class="form__input" required />
           </div>
            
           <div class="form__group">
-            <label for="brand" class="form__label">Do you have specific image or symbol to be portrayed in the logo?</label>
-            <input id="brand" name="symbol" type="text" class="form__input" required />
+            <label for="image" class="form__label">Do you have specific image or symbol to be portrayed in the logo?</label>
+            <input id="image" name="Do&nbsp;you&nbsp;have&nbsp;specific&nbsp;image&nbsp;or&nbsp;symbol&nbsp;to&nbsp;be&nbsp;portrayed&nbsp;in&nbsp;the&nbsp;logo?" type="text" class="form__input" required />
           </div>
 
           <div class="form__group">
@@ -505,6 +537,7 @@
                 class="form__radio-input--2"
                 id="Lettermark or monogram"
                 name="different"
+                value="Lettermark&nbsp;or&nbsp;monogram"
                 required
               />
               <label for="Lettermark or monogram" class="form__radio-label--2">
@@ -519,6 +552,7 @@
                 class="form__radio-input--2"
                 id="Abstract mark"
                 name="different"
+                value="Abstract&nbsp;mark"
                 required
               />
               <label for="Abstract mark" class="form__radio-label--2">
@@ -533,6 +567,7 @@
                 class="form__radio-input--2"
                 id="Pictorial mark"
                 name="different"
+                value="Pictorial&nbsp;mark"
                 required
               />
               <label for="Pictorial mark" class="form__radio-label--2">
@@ -547,6 +582,7 @@
                 class="form__radio-input--2"
                 id="Combination mark"
                 name="different"
+                value="Combination&nbsp;mark"
                 required
               />
               <label for="Combination mark" class="form__radio-label--2">
@@ -561,6 +597,7 @@
                 class="form__radio-input--2"
                 id="Emblem or badge type"
                 name="different"
+                value="Emblem&nbsp;or&nbsp;badge&nbsp;type"
                 required
               />
               <label for="Emblem or badge type" class="form__radio-label--2">
@@ -575,6 +612,7 @@
                 class="form__radio-input--2"
                 id="Mascot logo"
                 name="different"
+                value="Mascot&nbsp;logo"
                 required
               />
               <label for="Mascot logo" class="form__radio-label--2">
@@ -596,7 +634,7 @@
             
           <div class="form__group">
             <label for="comment" class="form__label">Additional brief or comments(*if any)</label>
-            <textarea name="comment" class="form__comment" id="comment" rows="10"></textarea>
+            <textarea name="Additional&nbsp;brief&nbsp;or&nbsp;comments" class="form__comment" id="comment" rows="3"></textarea>
           </div>
 
           <button class="btn btn--form">Submit</button>
