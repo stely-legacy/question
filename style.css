@@ -52,12 +52,6 @@ html {
 
 .heading-primary--main {
   display: block;
-  font-size: 6rem;
-  font-weight: 400;
-  color: #fff;
-
-  letter-spacing: 1rem;
-  text-transform: uppercase;
 }
 
 .heading-primary--sub {
@@ -155,7 +149,7 @@ html {
 }
 
 .form__radio-group {
-  width: 28%;
+  width: 33%;
   display: inline-block;
 }
 
